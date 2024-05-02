@@ -39,7 +39,7 @@ const Puli=()=>{
             <br></br>
             <div>{`2. During the analyzation of the scene, optimization measures are taken. For example, if a mesh occures in the scene more than a given amount of times, a MultiMesh is created for faster rendering.`}</div>
             <br></br>
-            <div>{`3. This tool organizes the scene quickly threw together by the developer (for now, me). Apart from the multimesh example, a ton of other steps are present which would be too numerous to list here.`}</div>
+            <div>{`3. This tool organizes the roughly built scene built by the developer (for now, me). Apart from the multimesh example, a ton of other steps are present which would be too numerous to list here.`}</div>
             <br></br>
             <div>{`4. The optimized and organized scene is output into the levels folder in a state ready for release.`}</div>
             </>
