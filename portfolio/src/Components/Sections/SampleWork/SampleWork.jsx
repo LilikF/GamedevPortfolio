@@ -11,7 +11,7 @@ const SampleWork=()=>{
 
     const slides=[
         {src:puli_ingame_1, title: 'Top Down Shooter',description: 'A game with a historical hungarian theme currently in development. I made a few in-editor tools in Godot for this game, about which you can read later down the document.'},
-        {src:puli_editor_1, title: 'Rigged & Animated Enemy',description: 'A fully rigged & animated enemy for my topdown shooter game. A nested state machine controls it\'s AI logic during gameplay.'},
+        {src:puli_editor_1, title: 'Rigged & Animated NPC',description: 'A fully rigged & animated enemy for my topdown shooter game. A nested state machine controls it\'s AI logic during gameplay.'},
         {src:pointcloud, title: 'Point Cloud Visualizer',description: 'A Point-Cloud visualizer software made entirely in Unity, able to play back movement recorded with motion capture software. This software was the subject of my batchelor\'s degree work in university.'},
         {src:constructopia, title: 'FPS Tower Defense Builder Sandbox',description: 'My first serious try at Godot development. A sandbox tower defense game where you can build and even design your own turrets. It has a steam page by the name of Constructopia, although development is halted.'}
     ]

@@ -75,6 +75,7 @@ code {
   padding-right: 20px;
   border-radius: 0px 0px 0px 10px;
   position: absolute;
+  font-size: 1.3rem!important;
   top: 0;
   right: 0;
 }
@@ -93,7 +94,7 @@ code {
   justify-content: center;
   color: white;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.2rem!important;
 }
 
 .modal-img{
@@ -105,4 +106,5 @@ code {
 .modal-description{
   padding: 20px;
   letter-spacing: 1px!important;
+  font-size: 1.3rem!important;
 }
