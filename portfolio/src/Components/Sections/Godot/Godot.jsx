@@ -7,7 +7,7 @@ const Godot=()=>{
 
     return(
         <FullWidthGrid item  xs={12}>
-        <TextCard small title={'Experience with Godot Engine'} content={
+        <TextCard id={'godot'} small title={'Experience with Godot Engine'} content={
             <>
             <div>{`Around 2-3 years ago I decided to give the Godot engine a go, attracted by it's open source nature. Ever since, I've been using it daily, developing small projects and two larger games, one of which is still actively in development.`}</div>
             <br></br>

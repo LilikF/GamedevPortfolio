@@ -15,7 +15,7 @@ const Constructopia=()=>{
 
     return(
         <FullWidthGrid item  xs={12}>
-        <TextCard small title={'Constructopia and my in-editor Screenshot Tool'} content={
+        <TextCard id={'dynamic-screenshot'} small title={'Constructopia and my in-editor Screenshot Tool'} content={
             <>
             <div>{`During the development of Constructopia, my 3D building game, I faced an annoying problem: I had to provide a thumbnail image for every building block the player could use in the editor.`}</div>
             <br></br>

@@ -13,10 +13,10 @@ const Modal=({data, onClose})=>{
                     {data.title}
                 </div>}
             <Grid container sx={{width:'100%'}} alignItems={'center'} justifyContent={'center'}>
-                <Grid item sx={12} alignItems={'center'} justifyContent={'center'}>
+                <Grid item xs={12} alignItems={'center'} justifyContent={'center'}>
                     <img src={data.src} className='modal-img'></img>
                 </Grid>
-                <Grid item sx={12} alignItems={'center'} justifyContent={'center'} className='custom-font modal-description'>
+                <Grid item xs={12} alignItems={'center'} justifyContent={'center'} className='custom-font modal-description'>
                     {data.description}
                 </Grid>
             </Grid>
@@ -33,7 +33,7 @@ export default ({slides}) => {
     <Splide
       options={ {
         rewind: true,
-        interval: 1000,
+        interval: 2000,
         autoWidth: true,
         arrows: false,
         pagination: true,

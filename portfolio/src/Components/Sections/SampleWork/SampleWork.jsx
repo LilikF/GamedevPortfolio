@@ -18,7 +18,7 @@ const SampleWork=()=>{
 
     return (
     <FullWidthGrid item  xs={12}>
-        <TextCard title={'Sample Work (Teaser)'}
+        <TextCard id="sample-work" title={'Sample Work (Teaser)'}
         footNote={
             <>
                 <div>

@@ -33,35 +33,52 @@ const Sidebar=(props)=>{
     }
   };
 
+  const section_a = [
+    {title: 'About Me', id: 'about-me'},
+    {title: 'Sample Work', id: 'sample-work'},
+    {title: 'Motivation', id: 'motivation'},
+  ]
+
+  const section_b = [
+    {title: 'Experience in Unity', id: 'unity'},
+    {title: 'Experience in Godot', id: 'godot'},
+    {title: 'In-Editor Dynamic Screenshot Tool', id: 'dynamic-screenshot'},
+    {title: 'Scene optimization tool', id: 'scene-optimization'},
+    {title: 'Orthogonal screenshot tool', id: 'orthogonal-screenshot'},
+  ]
+
+  const section_c = [
+    {title: 'Why choose me?', id: 'closing'},
+  ]
+
   const drawer = (
     <div>
       <Divider />
       <List>
-        {['About Me', 'Sample Work', 'Motivation'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemText primary={text} />
+        {section_a.map((data, index) => (
+          <ListItem key={data.title} disablePadding>
+            <ListItemButton href={`#${data.id}`}>
+              <ListItemText primary={data.title} />
             </ListItemButton>
           </ListItem>
         ))}
       </List>
       <Divider />
       <List>
-        {['My experience in Unity','Development in Godot','Learning Optimization: Constructopia','Full Stack in Action: Puli','Lessons Learned', 'Godot Tools'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemText primary={text} />
+        {section_b.map((data, index) => (
+          <ListItem key={data.title} disablePadding>
+            <ListItemButton href={`#${data.id}`}>
+              <ListItemText primary={data.title} />
             </ListItemButton>
           </ListItem>
         ))}
       </List>
       <Divider />
       <List>
-        {['Why choose me?'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-
-              <ListItemText primary={text} />
+        {section_c.map((data, index) => (
+          <ListItem key={data.title} disablePadding>
+            <ListItemButton href={`#${data.id}`}>
+              <ListItemText primary={data.title} />
             </ListItemButton>
           </ListItem>
         ))}

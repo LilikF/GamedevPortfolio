@@ -11,6 +11,8 @@ import { Grid } from '@mui/material';
 import Unity from './Components/Sections/Unity/Unity';
 import Godot from './Components/Sections/Godot/Godot';
 import Constructopia from './Components/Sections/Constructopia/Constructopia';
+import Puli from './Components/Sections/Puli/Puli';
+import Closing from './Components/Sections/Closing/Closing';
 
 function App() {
 
@@ -31,6 +33,9 @@ function App() {
             <div className='divider'></div>
             <Godot/>
             <Constructopia/>
+            <Puli/>
+            <div className='divider'></div>
+            <Closing/>
           </Grid>
         </Box>
       </Sidebar>

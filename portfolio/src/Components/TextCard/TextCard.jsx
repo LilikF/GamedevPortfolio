@@ -5,9 +5,10 @@ import CardContent from '@mui/material/CardContent';
 
 import './index.css'
 
-const TextCard=({title, content, small, footNote, children})=>{
+const TextCard=({title, content, small, footNote, children, id})=>{
     return(
-    <Card sx={{borderRadius:'7px'}}>
+    <Card sx={{borderRadius:'7px', position:'relative'}}>
+        <div style={{position:'absolute', top:'-100px'}} id={id}/>
         <Grid container >
             {title &&
                 <Grid item xs={12} justifyContent={'start'} alignItems={'flex-start'}>
