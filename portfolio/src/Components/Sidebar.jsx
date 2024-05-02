@@ -37,7 +37,7 @@ const Sidebar=(props)=>{
     <div>
       <Divider />
       <List>
-        {['About Me', 'Sample Work'].map((text, index) => (
+        {['About Me', 'Sample Work', 'Motivation'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemText primary={text} />

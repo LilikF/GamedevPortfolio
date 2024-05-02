@@ -41,6 +41,10 @@ const AboutMe=()=>{
         <SampleWork/>
 
         <FullWidthGrid item xs={12}>
+            <TextCard title={"Motivation"} small content="Ever since the first line of code I wrote, I immediately fell in love with coding. After trying myself in different jobs, I came to the conclusion that to keep this passion, I need to work in, or alongside Game Development. A lot of my free time (6 hours daily at least) goes into developing in Godot. I have pride in the knowledge I managed to accumulate in the field so far, and a hunger for honing my skills further. For this, I am willing to untiringly put in the hours at the job, because I found my passion in this field. To work such a job would be a privilege I would very much enjoy."></TextCard>
+        </FullWidthGrid>
+
+        <FullWidthGrid item xs={12}>
             <TextCard small content="In the following document, I will outline my work and current expertise regarding game development and game engines. My knowledge and practices were acquired exclusively in my free time, as before I did not have the chance to find any job postings in search of a Godot developer. If you are however interested in my previous jobs, please refer to the CV attached to my application."></TextCard>
         </FullWidthGrid>
     </Grid>)

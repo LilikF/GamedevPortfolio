@@ -8,6 +8,7 @@ import AboutMe from './Components/Sections/AboutMe/AboutMe';
 import './index.css'
 import SampleWork from './Components/Sections/SampleWork/SampleWork';
 import { Grid } from '@mui/material';
+import Unity from './Components/Sections/Unity/Unity';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Toolbar />
           <Grid container gap={'32px'}>
             <AboutMe/>
+            <Unity/>
           </Grid>
         </Box>
       </Sidebar>
