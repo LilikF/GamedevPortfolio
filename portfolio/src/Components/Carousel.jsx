@@ -8,9 +8,10 @@ const Modal=({data, onClose})=>{
     return <div className='modal-wrapper'>
         <Card className='modal-card' sx={{position:'relative', overflow:'visible'}}>
             <div className='modal-close' onClick={onClose}>X</div>
-            <div className='modal-title custom-font'>
-                        {data.title}
-                    </div>
+            {data.title && 
+                <div className='modal-title custom-font'>
+                    {data.title}
+                </div>}
             <Grid container sx={{width:'100%'}} alignItems={'center'} justifyContent={'center'}>
                 <Grid item sx={12} alignItems={'center'} justifyContent={'center'}>
                     <img src={data.src} className='modal-img'></img>

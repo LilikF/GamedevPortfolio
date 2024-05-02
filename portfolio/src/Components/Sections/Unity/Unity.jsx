@@ -17,7 +17,7 @@ const Unity=()=>{
 
     return(
         <FullWidthGrid item  xs={12}>
-        <TextCard small title={'Experience in Unity Engine'} content={
+        <TextCard small title={'Experience with Unity Engine'} content={
             <>
             <div>{`During my years in university, I worked in co-operation with the research center of innovation on the campus.
             One task I was assigned with was to develop a point-cloud data visualizer, which could replay movements

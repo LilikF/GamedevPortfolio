@@ -9,6 +9,8 @@ import './index.css'
 import SampleWork from './Components/Sections/SampleWork/SampleWork';
 import { Grid } from '@mui/material';
 import Unity from './Components/Sections/Unity/Unity';
+import Godot from './Components/Sections/Godot/Godot';
+import Constructopia from './Components/Sections/Constructopia/Constructopia';
 
 function App() {
 
@@ -26,6 +28,9 @@ function App() {
             <AboutMe/>
             <div className='divider'></div>
             <Unity/>
+            <div className='divider'></div>
+            <Godot/>
+            <Constructopia/>
           </Grid>
         </Box>
       </Sidebar>
