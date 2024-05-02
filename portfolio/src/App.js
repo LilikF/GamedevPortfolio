@@ -24,6 +24,7 @@ function App() {
           <Toolbar />
           <Grid container gap={'32px'}>
             <AboutMe/>
+            <div className='divider'></div>
             <Unity/>
           </Grid>
         </Box>

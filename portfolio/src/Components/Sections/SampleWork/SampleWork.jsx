@@ -21,9 +21,6 @@ const SampleWork=()=>{
         <TextCard title={'Sample Work (Teaser)'}
         footNote={
             <>
-                <div style={{fontWeight:'bolder',fontSize:'1.5em'}}>
-                    {'Click on the images for description'}
-                </div>
                 <div>
                     {'Everything seen in the following screenshots is exclusively my own work (Yes, even the 3D modeling).'}
                 </div>

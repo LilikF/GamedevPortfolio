@@ -48,6 +48,9 @@ export default ({slides}) => {
           </SplideSlide>
         })}
     </Splide>
+    <div style={{fontWeight:'bolder',fontSize:'1.5em'}} className='custom-font under-text-carousel'>
+        {'Click on the images for description'}
+    </div>
     {modalData&&
         <Modal data={modalData}  onClose={()=>setModalData(null)}/>
     }
