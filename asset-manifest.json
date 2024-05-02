@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/GamedevPortfolio/static/css/main.f855e6bc.css",
-    "main.js": "/GamedevPortfolio/static/js/main.28d8a65d.js",
-    "static/js/453.1407b060.chunk.js": "/GamedevPortfolio/static/js/453.1407b060.chunk.js",
+    "main.css": "/GamedevPortfolio/static/css/main.8899568a.css",
+    "main.js": "/GamedevPortfolio/static/js/main.9994f636.js",
+    "static/js/453.ace21015.chunk.js": "/GamedevPortfolio/static/js/453.ace21015.chunk.js",
+    "static/media/profilepic.png": "/GamedevPortfolio/static/media/profilepic.ee62c5359934d66f1f3b.png",
     "static/media/logo.svg": "/GamedevPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/GamedevPortfolio/index.html",
-    "main.f855e6bc.css.map": "/GamedevPortfolio/static/css/main.f855e6bc.css.map",
-    "main.28d8a65d.js.map": "/GamedevPortfolio/static/js/main.28d8a65d.js.map",
-    "453.1407b060.chunk.js.map": "/GamedevPortfolio/static/js/453.1407b060.chunk.js.map"
+    "main.8899568a.css.map": "/GamedevPortfolio/static/css/main.8899568a.css.map",
+    "main.9994f636.js.map": "/GamedevPortfolio/static/js/main.9994f636.js.map",
+    "453.ace21015.chunk.js.map": "/GamedevPortfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.28d8a65d.js"
+    "static/css/main.8899568a.css",
+    "static/js/main.9994f636.js"
   ]
 }
