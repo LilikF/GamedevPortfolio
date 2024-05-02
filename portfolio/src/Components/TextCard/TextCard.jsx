@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 
 import './index.css'
 
-const TextCard=({title, content, small, children})=>{
+const TextCard=({title, content, small, footNote, children})=>{
     return(
     <Card sx={{borderRadius:'7px'}}>
         <Grid container >
@@ -29,6 +29,13 @@ const TextCard=({title, content, small, children})=>{
                  <Grid item xs={12} padding={'20px'}>
                     {children}
                 </Grid>
+            }
+            {footNote &&
+             <Grid item xs={12} paddingBottom={'20px'}>
+                <div className={`textcard-content custom-font small-text`} style={{textAlign:'center'}}>
+                {footNote}
+                </div>
+             </Grid>
             }
         </Grid>
     </Card>
