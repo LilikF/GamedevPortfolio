@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import Sidebar from './Components/Sidebar';
+
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import AboutMe from './Components/Sections/AboutMe/AboutMe';
 
 function App() {
+
+  const drawerWidth = 240;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <Sidebar drawerWidth={drawerWidth}>
+        <Box
+          component="main"
+          sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)`, backgroundColor:'#12253bed', minHeight:'100vh' } }}
         >
-          Learn React
-        </a>
-      </header>
+          <Toolbar />
+          <AboutMe/>
+        </Box>
+      </Sidebar>
     </div>
   );
 }

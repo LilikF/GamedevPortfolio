@@ -1,0 +1,7 @@
+.profile-pic{
+    width: 70vw;
+    aspect-ratio: 1/1;
+    max-width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 161, 53);
+}
