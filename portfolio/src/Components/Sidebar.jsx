@@ -12,7 +12,6 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 
 const Sidebar=(props)=>{
   const { window } = props;
@@ -36,10 +35,9 @@ const Sidebar=(props)=>{
 
   const drawer = (
     <div>
-      <Toolbar />
       <Divider />
       <List>
-        {['About Me'].map((text, index) => (
+        {['About Me', 'Sample Work'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemText primary={text} />
@@ -84,7 +82,7 @@ const Sidebar=(props)=>{
           ml: { sm: `${props.drawerWidth}px` },
         }}
       >
-        <Toolbar>
+        <Toolbar sx={{backgroundColor:'#12253bed!important'}}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -94,9 +92,7 @@ const Sidebar=(props)=>{
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
-            Ferenc Lilik - Game Development Portfolio
-          </Typography>
+         
         </Toolbar>
       </AppBar>
       <Box

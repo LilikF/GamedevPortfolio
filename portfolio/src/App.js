@@ -4,22 +4,26 @@ import Sidebar from './Components/Sidebar';
 
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import AboutMe from './Components/Sections/AboutMe/AboutMe';
+import './index.css'
+import SampleWork from './Components/Sections/SampleWork/SampleWork';
+import { Grid } from '@mui/material';
 
 function App() {
 
   const drawerWidth = 240;
 
   return (
-    <div className="App">
+    <div className="App" style={{color:'white'}}>
       <Sidebar drawerWidth={drawerWidth}>
         <Box
           component="main"
           sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)`, backgroundColor:'#12253bed', minHeight:'100vh' } }}
         >
           <Toolbar />
-          <AboutMe/>
+          <Grid container gap={'32px'}>
+            <AboutMe/>
+          </Grid>
         </Box>
       </Sidebar>
     </div>

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: MainFont;
+  src: url('./Assets/mainfont.ttf');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +12,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.custom-font{
+  font-family: MainFont!important;
+  letter-spacing: 2px!important;
+  font-size: 1.5em!important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.slide-img{
+  width: 200px;
+  border-radius: 5px;
 }
