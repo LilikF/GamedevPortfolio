@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GamedevPortfolio/static/css/main.b7c45877.css",
-    "main.js": "/GamedevPortfolio/static/js/main.5d5703d6.js",
+    "main.js": "/GamedevPortfolio/static/js/main.61723129.js",
     "static/js/453.ace21015.chunk.js": "/GamedevPortfolio/static/js/453.ace21015.chunk.js",
     "static/media/puli_ingame_1.png": "/GamedevPortfolio/static/media/puli_ingame_1.212343a7d64eefc3e491.png",
     "static/media/constructopia_building.png": "/GamedevPortfolio/static/media/constructopia_building.8824908ba34b1d3ae549.png",
@@ -22,11 +22,11 @@
     "static/media/logo.svg": "/GamedevPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/GamedevPortfolio/index.html",
     "main.b7c45877.css.map": "/GamedevPortfolio/static/css/main.b7c45877.css.map",
-    "main.5d5703d6.js.map": "/GamedevPortfolio/static/js/main.5d5703d6.js.map",
+    "main.61723129.js.map": "/GamedevPortfolio/static/js/main.61723129.js.map",
     "453.ace21015.chunk.js.map": "/GamedevPortfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7c45877.css",
-    "static/js/main.5d5703d6.js"
+    "static/js/main.61723129.js"
   ]
 }
