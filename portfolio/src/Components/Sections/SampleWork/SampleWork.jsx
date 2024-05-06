@@ -22,11 +22,15 @@ const SampleWork=()=>{
         footNote={
             <>
                 <div>
-                    {'Everything seen in the following screenshots is exclusively my own work (Yes, even the 3D modeling).'}
+                    {'Everything seen in the following screenshots & video is exclusively my own work (Coding, 3D models, shaders, etc.).'}
                 </div>
             </>
         }>
             <Carousel slides={slides}/>
+        </TextCard>
+        <TextCard>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1h8LbbCYkss?si=SFvkEKc5Mgtl3sHy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </TextCard>
     </FullWidthGrid>
 )
