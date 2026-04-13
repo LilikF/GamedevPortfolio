@@ -22,7 +22,7 @@ const AboutMe=()=>{
                     <Grid container>
                         <Grid item xs={12} alignItems='center' justifyContent='center'>
                         <Typography paragraph className='custom-font bold largetext' sx={{textAlign:'center'}}>
-                            Ferenc Lilik (Age 25)
+                            Ferenc Lilik
                         </Typography>
                         </Grid>
                         <Grid item xs={12}  alignItems='center' justifyContent='center'>
@@ -35,7 +35,7 @@ const AboutMe=()=>{
             </Grid>
         </Grid>
         <FullWidthGrid item xs={12}>
-            <TextCard title="About Me" content="I am a software engineer based in Hungary, with 5 solid years of industry experience behind me. During the years, I've worked in different branches of the industry, but one thing always remained constant: Game development in (almost all) my free time."></TextCard>
+            <TextCard title="About Me" content="I am a software engineer based in Hungary, with 7 solid years of industry experience behind me. During the years, I've worked in different branches of the industry, but one thing always remained constant: Game development in (almost all) my free time."></TextCard>
         </FullWidthGrid>
 
         <SampleWork/>

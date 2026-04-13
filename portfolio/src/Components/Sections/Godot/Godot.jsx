@@ -11,7 +11,7 @@ const Godot=()=>{
             <>
             <div>{`Around 2-3 years ago I decided to give the Godot engine a go, attracted by it's open source nature. Ever since, I've been using it daily, developing small projects and two larger games, one of which is still actively in development.`}</div>
             <br></br>
-            <div>{`Becuase of the large nature of these two games, I learnt the importance of in-engine tools, made to help development. I've made quite a few myself, which I will focus on in this segment, given that the job description is for asset / tool creation.`}</div>
+            <div>{`Becuase of the large nature of these two games, I learnt the importance of in-engine tools, made to help development. I've made quite a few, which I will focus on in this segment, as these are the aspects of game development I find more interesting. Do keep in mind that everything you see on this page is exclusively my work, not just the in-engine tools..`}</div>
             </>
         }>
         </TextCard>

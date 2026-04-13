@@ -6,9 +6,9 @@ const Closing=()=>{
         <FullWidthGrid item  xs={12}>
         <TextCard small title={'Why choose me?'} id={'closing'} content={
             <>
-            <div>{`Since, as I understand, this job focuses on tool development for game dev, I focused exclusively on a few in-editor tools I made for Godot.`}</div>
+            <div>{`I am passionate about game development, especially with the Godot engine.`}</div>
             <br></br>
-            <div>{`However, as you can hopefully see from the provided material, I am confident in my ability and knowledge regarding game development practices. Since I can't prove my technical skills in a simple portfolio, I sincerely hope you give me a chance in the form of an interview. As for my motivation, believe me, it is sky high when it comes to this sort of job, and I am looking forward to hearing from you.`}</div>
+            <div>{`All of the above material is just a sneak-peek into my knowledge in the field. I believe my skills and mindset for developing an optimized, clean and well-structured project with Godot are there, and I hope you give me a shot.`}</div>
             </>
         }>
         </TextCard>
