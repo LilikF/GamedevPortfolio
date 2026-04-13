@@ -38,7 +38,7 @@ const SampleWork=()=>{
                 </div>
             </>
         }>
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/1h8LbbCYkss?si=SFvkEKc5Mgtl3sHy" title="YouTube video player" frameborder="0" allow="accelerometer; fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/1Ziqsijk0e4?si=Vbxzyiu9LuECSntG"  title="YouTube video player" frameborder="0" allow="accelerometer; fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </TextCard>
     </FullWidthGrid>
     </>
